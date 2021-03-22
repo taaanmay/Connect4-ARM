@@ -64,7 +64,7 @@ Checks for diagonals right to left.
 For checking the diagonals left to right, it increments the index by 8. So, if the first ‘R’ was found at index (1,1), it jumps to index (2,2). It checks for the character ‘R’ and if found the length is again incremented by 1 and index is incremented by 8 (i.e. changing the index from 2,2 to 3,3). If the length becomes 4, the player wins, and a string is outputted telling the player(s) that ‘R’ won.
 
 
-![Table1](assets/table1.png)
+![Table1](Assets/table1.png)
 
 <br><br>
 
@@ -74,11 +74,11 @@ Otherwise, it checks for the second case. Second case is checking for diagonals 
  So, if the first ‘R’ was found at index (1,4), it jumps to index (2,3). It checks for the character ‘R’ and if found the length is again incremented by 1 and index is incremented by 6 (i.e. changing the index from 2,3 to 3,2). If the length becomes 4, the player wins, and a string is outputted telling the player(s) that ‘R’ won.
 
 These both cases are checked for the ‘Y’ coin.
-![Table2](assets/table2.png)
+![Table2](Assets/table2.png)
 
 <br> <br>
 
-![Table3](assets/table3.png)
+![Table3](Assets/table3.png)
 
 <br><br>
 ### COMPUTER PLAYER
